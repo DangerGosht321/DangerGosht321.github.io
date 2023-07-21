@@ -1,3 +1,0 @@
-Para centrar textos justificados es con: <div style="text-align:justify;"></div>
-Para centrar textos y justificar a izquierda o derecha es con:
-<div style="text-align:center, left o right;"></div>
