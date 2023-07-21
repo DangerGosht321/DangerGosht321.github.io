@@ -1,0 +1,23 @@
+
+table,
+th,
+td {
+    border: 2px solid black;
+}
+
+img {
+    width: 250px;
+}
+
+th,
+td {
+    padding: 30px;
+}
+
+#LOGO {
+    width: 150px;
+}
+
+#Tabla2 {
+    margin-top: 10px
+}
