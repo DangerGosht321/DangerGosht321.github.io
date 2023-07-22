@@ -31,46 +31,22 @@
         margin-left: 100px;
         margin-right: 100px;
     }
-
-    ul{
-      padding: 0;
-      width: 100%;
-}
     
-li {
-      display: inline;
-}
-    
-a {
-      outline: none;
-      text-decoration: none;
+    body{
+      display: grid;
+      place-items: center;
+      min-height: 100vh;
+    }
+    button{
       display: inline-block;
-      width: 19.5%;
-      margin-right: 0.625%;
-      text-align: center;
-      line-height: 3;
-      color: black;
-      border-radius: 25;
-}
-    
-li:last-child a {
-      margin-right: 0;
-}
-    
-a:link,
-a:visited,
-a:focus {
-      background: rgb(28, 128, 21);
-}
-    
-a:hover {
-      background: rgb(151, 228, 134);
-}
-    
-a:active {
-      background: rgb(130, 192, 239);
+      padding: 1em 2em;
+      background: black;
       color: white;
-}
+      border-radius: 2em;
+      border:none;
+      outline: 2px solid black;
+      outline-offset: 3px;
+    }
 </style>
 <div class="title">
     <h1>
@@ -135,9 +111,9 @@ a:active {
         <center><img id="Bielas y Manivelas" src="imagenes/Bielas y Manivelas.png" alt="Bielas y Manivelas"></src>
         </center>
     </div>
-    <ul>
-    <li><a href="Index.html"><center><Big aria-readonly="true"> Tablas de informacion</Big></center></a></li>
-    </ul>
+  
+    <button href="Index.html"><center>Tablas de informacion</center></button>
+   
 </body>
 
 </html>
