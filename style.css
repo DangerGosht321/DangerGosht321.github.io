@@ -23,10 +23,10 @@ td {
 }
     
 a{
-      border-radius: 5px;
+      border-radius: 25px;
       padding: 10px 7px;
       text-decoration: none;
-      color: #fff;
-      background-color:#95eea0;
+      color: #ffffff;
+      background-color:#000000;
       margin: 5px;
     }
