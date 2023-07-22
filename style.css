@@ -28,7 +28,6 @@ ul{
 }
     
 li {
-        border-radius: 25;
       display: inline;
 }
     
@@ -41,6 +40,7 @@ a {
       text-align: center;
       line-height: 3;
       color: black;
+      border-radius: 25;
 }
     
 li:last-child a {
