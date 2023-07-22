@@ -21,24 +21,18 @@ td {
 #Tabla2 {
     margin-top: 10px
 }
-
-body,
-    html {
-      margin: 0;
-      font-family: sans-serif;
-    }
     
-    ul{
+ul{
       padding: 0;
       width: 100%;
-    }
+}
     
-    li {
+li {
         border-radius: 25;
       display: inline;
-    }
+}
     
-    a {
+a {
       outline: none;
       text-decoration: none;
       display: inline-block;
@@ -47,23 +41,23 @@ body,
       text-align: center;
       line-height: 3;
       color: black;
-    }
+}
     
-    li:last-child a {
+li:last-child a {
       margin-right: 0;
-    }
+}
     
-    a:link,
-    a:visited,
-    a:focus {
+a:link,
+a:visited,
+a:focus {
       background: rgb(28, 128, 21);
-    }
+}
     
-    a:hover {
+a:hover {
       background: rgb(151, 228, 134);
-    }
+}
     
-    a:active {
+a:active {
       background: rgb(130, 192, 239);
       color: white;
-    }
+}
